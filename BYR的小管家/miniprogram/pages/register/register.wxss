@@ -1,0 +1,45 @@
+.inputView { 
+    /* background-color: #fff;  */
+    line-height: 45px; 
+    border-radius:20px;
+    border:1px solid #999999;
+} 
+
+.loginLab { 
+    margin: 15px 15px 15px 10px; 
+    color: #545454; 
+    font-size: 14px
+} 
+
+/* .inputText { 
+    flex: block; 
+    float: right;
+    text-align: left;  
+    margin-top: 11px;
+    color: #cccccc; 
+    font-size: 14px
+}  */
+
+.line { 
+    margin-top: 8px; 
+} 
+
+.inputStyle
+{
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.buttonStyle
+{
+    margin-top: 5px;
+}
+
+.inputText1
+{
+    border-radius: 1px;
+    border: 1px solid #999999;
+    margin-left: 5px;
+    margin-right: 5px;
+} 

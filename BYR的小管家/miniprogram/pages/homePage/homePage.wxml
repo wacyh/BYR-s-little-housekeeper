@@ -1,0 +1,14 @@
+<!-- 登录之后的首页 -->
+<view>我发表的内容</view>
+<view wx:for="{{myList}}">
+    <view wx:if="{{index<3}}">
+        <view class="myPage">
+            <view class="titleFont">{{item.title}}</view>
+            <view class="contentFont">{{item.content}}</view>
+            <view wx:if="{{item.cloudLocation}}">
+                <image style="width: 300rpx;height: 300rpx;" src="{{item.cloudLocation}}"></image>
+            </view>
+        </view>
+    </view>
+</view>
+<button bindtap="thePost">我要发帖子</button>

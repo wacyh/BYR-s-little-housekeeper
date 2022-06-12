@@ -1,0 +1,31 @@
+<!-- 最开始的登录界面 -->
+
+<view class="container"> 
+ 
+ <view class="login-icon"> 
+ <image class="login-img"></image> 
+ </view> 
+ <view class="login-from"> 
+ 
+ <!--账号-->
+ <view class="inputView"> 
+  <label class="loginLab">账号</label> 
+  <input class="inputText" focus="true" bindinput="userNameInput"/> 
+ </view> 
+ <view class="line"></view> 
+ 
+ <!--密码-->
+ <view class="inputView">
+  <label class="loginLab">密码</label> 
+  <input class="inputText" password="true" focus="ture" bindinput="passwordInput" /> 
+ </view> 
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" type="primary" bindtap="login">登录</button>
+  <button class="loginBtn1" type="primary">
+  <navigator url="/miniprogram/pages/register/register">注册</navigator>
+  </button> 
+ </view> 
+ </view> 
+</view>

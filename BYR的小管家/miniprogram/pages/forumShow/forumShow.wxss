@@ -1,0 +1,19 @@
+.myPage{
+    margin-top: 2rpx;
+    margin-bottom: 30rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    border:1rpx solid gray;
+}
+
+/* 标题的字体设置 */
+.titleFont{
+    font-size:xx-large;
+    color: black;
+}
+
+/* 内容的字体设置 */
+.contentFont{
+    font-size:medium;
+    color: gray;
+}

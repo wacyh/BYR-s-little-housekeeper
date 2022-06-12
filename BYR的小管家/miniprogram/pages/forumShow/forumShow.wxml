@@ -1,0 +1,15 @@
+<!-- 论坛展示界面 -->
+<view wx:for="{{forumList}}">
+    <view>
+        <view class="myPage">
+            <view class="titleFont">{{item.title}}</view>
+            <view class="contentFont">{{item.content}}</view>
+            <view wx:if="{{item.cloudLocation}}">
+                <image style="width: 300rpx;height: 300rpx;" src="{{item.cloudLocation}}"></image>
+            </view>
+            <view>
+                <view>{{item.userName}}</view>
+            </view>
+        </view>
+    </view>
+</view>

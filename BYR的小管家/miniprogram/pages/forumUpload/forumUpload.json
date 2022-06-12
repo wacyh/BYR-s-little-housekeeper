@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "i-input": "/miniprogram/dist/input/index" ,
+        "i-button": "/miniprogram/dist/button/index",
+        "i-card": "/miniprogram/dist/card/index",
+        "i-toast": "/miniprogram/dist/toast/index",
+        "i-radio-group": "/miniprogram/dist/radio-group/index",
+        "i-radio": "/miniprogram/dist/radio/index"
+    }
+}

@@ -1,0 +1,6 @@
+<!-- 注册界面 -->
+<view class="inputStyle">账号（11位，推荐使用手机号）</view>
+<input class="inputText1" focus="true" bindinput="userNameInput"/>
+<view class="inputStyle">密码</view>
+<input class="inputText1" focus="true" bindinput="passwordInput" password="true"/>
+<button class="buttonStyle" bindtap="Register" type="primary">注册</button>
